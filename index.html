@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>songs</title>
     <style>
+        .video{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         .video>video {
             border: 2px solid yellow;
             width: 100%;
         }
-
-        img {
+        .img{
+            height: 200px;
             display: flex;
-            position: relative;
-            right: -250px;
-            top: 50px;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
@@ -24,7 +28,9 @@
     <div class="video">
         <video controls src="ISHQ.mp4"></video>
     </div>
-    <img src="love.png" alt="">
+    <div class="img">
+        <img src="love.png" alt="">
+    </div>
 
 </body>
 
